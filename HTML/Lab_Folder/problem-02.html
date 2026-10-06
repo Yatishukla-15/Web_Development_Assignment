@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Healthcare Appointment & Patient Intake Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Healthcare Appointment & Patient Intake Portal</h1>
+
+        <h2>Citycare Multispeciality Clinic</h2>
+        <h3>Welcome to citycare Multispeciality clinic
+        
+        </h3>
+        <p>CityCare Multispecialty Clinic provides reliable and patient-focused healthcare services with experienced doctors, modern facilities, and convenient appointment options.</p><br>
+        <p>Our clinic is committed to providing quality medical consultation and helping patients receive the right care at the right time. </p>
+
+        <h3>Useful Links</h3>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Doctors & Speciality</a></li>
+            <li><a href="">Appointment</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+        <img src="" alt="Hospital Image">
+        <hr>
+    </header>
+    <main><h2>Doctors & Specialities</h2>
+    <p>Our clinic has experienced healthcare professionals specializing in different areas of medicine.</p>
+    <h3>Speciality Available</h3>
+    <ul>
+        <li>General medicine</li>
+        <li>Cardiology</li>
+        <li>Dermatology</li>
+        <li>Pediatrics</li>
+        <li>Orthopedics</li>
+        <li>Gynecology</li>
+        <li>ENT</li>
+        <li>Dentistry</li>
+    </ul>
+    <hr>
+    <h3>Our Doctors</h3>
+    <table border="1">
+        <thead>
+          <tr>  <th>Doctor name</th>
+            <th>Specialty</th>
+            <th>Available days</th>
+            <th>Consultation type</th>
+            <th>Consultation Fee</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dr. Ananya sharma</td>
+                <td>General medicine</td>
+                <td>Monday-friday</td>
+                <td>in-person/Teleconsultation</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Dr. Rahul Mehta</td>
+                <td>Cardiology</td>
+                <td>Monday,Wedneesday,Friday</td>
+                <td>in-person</td>
+                <td>$14</td>
+            </tr>
+            <tr>
+                <td>Dr. mansi saini</td>
+                <td>Gynecologist</td>
+                <td>only friday</td>
+                <td>in-person</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Dr. Amit Kapoor</td>
+                <td>Dermatology</td>
+                <td>Tuesday-Saturday</td>
+                <td>in-person</td>
+                <td>$6</td>
+            </tr>
+            <tr>
+                <td>Dr. Neha singh</td>
+                <td>Othopedics</td>
+                <td>Tuesday, Thursday, saturday</td>
+                <td>in-person/teleconsultation</td>
+                <td>$8</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <hr>
+    <h2>Patient Information</h2>
+    <dl>
+        <dt>New patient</dt>
+        <dd>A patient visting the clinic for the first time.</dd>
+        <dt>Follow-up</dt>
+        <dd>A subsequent appointment to review progress or continue treatment after a<blockquotevious consultation.</dd>
+        <dt>Consultation</dt>
+        <dd>A medical discussion between a patient and healthcare professional for assesment and advice.</dd>
+        <dt>Emergency</dt>
+        <dd>A serious or urgent medical situation requiring immediate medical attention.</dd>
+        <dt>teleconsultation</dt>
+        <dd>A medical consultation conducted remotely using phone or online communication.</dd>
+    </dl>
+    <hr>
+    <h2>Appointment Process</h2>
+    <ol>
+        <li >Select your<blockquoteferred specialty.</li>
+        <li>Choose an available doctor.</li>
+        <li>Select the appointment date and time.</li>
+        <li>Enter your personal and contact information.</li>
+        <li>Provide details about your reason for visiting.</li>
+        <li>Submit the appointment request.</li>
+        <li>Wait for confirmation from the clinic.</li>
+    </ol>
+    <hr>
+    <h2>Information to keep ready</h2>
+    <ul>
+        <li>Patient's full name</li>
+        <li>Date of birth</li>
+        <li>Mobile number</li>
+        <li>Email address</li>
+        <li>Patient ID, if already registered</li>
+        <li><blockquotevious medical reports, if applicable</li>
+        <li> Current<blockquotescription details, if applicable </li>
+        <li> Reason for the visit </li>
+        <li><blockquotevious appointment information for follow-ups </li>
+        
+    </ul>
+    <hr>
+    <h2>Patient Appointment & Intake Form </h2>
+    <h3>Personal Details</h3>
+
+   <div> <label for="Patient name"  >Patient name:
+    <input id="patient name" type="text" name="patient name" placeholder="Enter full name"></label></div>
+    <br>
+    <div><label for="dob">Date of Birth:
+        <input type="date" name="date of birth" >
+    </label></div>
+    <br>
+    <div><label for="email">Email Address: <input type="email" name="email" ></label></div>
+    <br>
+    <div><label for="phone">Phone Number:</label> <input type="tel" name="phone" placeholder="+91-xxxxxxxx78"></div>
+    <br>
+
+    <form>
+        <label for="Gender">Gender:</label>
+      <div><label><input type="Radio" name="Gender" value="M">Male</label></div>
+       <div><label> <input type="Radio" name="Gender" value="F">Female</label></div>
+        <div><label><input type="Radio" name="Gender" value="O">Others</label></div>
+    </form>
+        <hr>
+        <h3>Medical appointment details</h3>
+
+        <label for="Speciality" >Speciality: </label>
+        <select id="Speciality" name="Speciality" aria-placeholder="select speciality">
+            <option value="select speciality" disabled >select speciality</option>
+            <option value="General medicine">General medicine</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Dermatology">Dermatology</option>
+            <option value="Pediatrics">Pediatrics</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="Gynecology">Gynecology</option>
+            <option value="ENT">ENT</option>
+            <option value="Dentistry">Dentistry</option>
+        </select>
+        <br>
+        <br>
+    <label for="Doctor"<blockquotefered Doctor:</label>
+    <select id="Doctor" name="Doctor">
+        <option value="select doctor" disabled>select doctor</option>
+        <option value="Dr. Ananya Sharma">Dr. Ananya Sharma</option>
+        <option value="Dr. Rahul Mehta">Dr. Rahul Mehta</option>
+        <option value="Dr. Hemant Parihar">Dr. Hemant Parihar</option>
+        <option value="Dr. Amit Kapoor">Dr. Amit Kapoor</option>
+        <option value="Dr. Neha Singh">Dr. Neha Singh</option>
+    </select>
+    <br>
+    <br>
+    <label for="Date" >Appointment Date:</label>
+    <input id="date" name="Date" type="date" placeholder="select date">
+    <br>
+    <br>
+    <label for="time"<blockquotefered time:</label>
+    <input type="time" id="time" name="time">
+    <br>
+    <br>
+        <label for="visiting">visit type:</label>
+        <select id="visiting" name="visiting">
+            <option value="select visit type" disabled>select visit type</option>
+            <option value="New Patient">New patient</option>
+            <option value="Follow-up">Follow-up</option>
+            <option value="Consultation">Consultation</option>
+            <option value="Emergency">Emergency</option>
+            <option value="Teleconsultation">Teleconsultation</option>
+        </select>
+        <hr>
+        <h3>Communication</h3>
+        <label for="communication method" > communication method:
+            <div><input type="radio" name="communication method" value="Phone call">phone call</div>
+            <div><input type="radio" name="communication method" value="Email">Email</div>
+            <div><input type="radio" name="communication method" value="SMS">SMS</div>
+        </label>
+        <hr>
+        <h3>Patient Identification</h3>
+       <div> <label for="ID" >Patient ID:</label>
+        <input type="number" id="ID" name="ID"></div>
+        <br>
+        <i>New patients may leave this field blank.</i>
+        <hr>
+
+        <h3>Reson for Visit</h3>
+        <label for="reason for visiting">Please describe your symptoms, reason for consultation, or any additional information:<br>
+            <textarea id="reason for visiting" name="reason for visiting" type="text" rows="6" column="6" placeholder="Enter your symptoms or reason for visiting....."> </textarea>
+        </label>
+        <hr>
+        <div><h3>Additional consent</h3><input type="checkbox" name="consent">
+        <label for="consent">I consent to being contacted by the clinic regarding my appointment and healthcare services.</label></div>
+        <div><input type="checkbox" name="consent">
+        <label for="consent"> I confirm that the information provided in this form is accurate to the best of my knowledge.</label></div>
+        <button type="submit">Submit Application</button>
+     <button type="reset">Reset Form</button>
+    </main>
+     <footer><hr>
+     <h2>Patient care</h2>
+     <p> Every patient deserves to be heard treated with respect and provided with compassionate care. Our team is committed to making every visit comfortable and meaningful.</p>
+     <strong><blockquote>-CityCare Multispecialty Clinic</blockquote></strong>
+     <hr>
+     <h2>Contact Us</h2>
+     <h3> City care multispecialty clinic </h3>
+     <p>Address: 25 Health Avenue, New Delhi, India</p>
+     <p>Appointment Desk: +91-9876543210</p>
+     <p>Email: <a href="appointments@citycareclinic.com">appointments@citycareclinic.com</a></p>
+     <h3>Emergency</h3>
+     <p>For medical emergencies, call:112</p>
+     <h4>Useful contact links</h4>
+     <ul>
+        <li>Call Clinic: +91-9876543210 </li>
+        <li>Email Clinic:<a href="appointments@citycareclinic.com">appointments@citycareclinic.com </a></li>
+        <li>Emergency: 112 </li>
+     </ul>
+     <hr>
+     <h3>Visit our clinic</h3>
+     <a href=""></a>
+     <img src="https://care-new-dev.s3.ap-south-1.amazonaws.com/assets/images/main/care_hospitals_banjara_hills_hyderabad_1_1x.webp" alt="clinic image ">
+     <hr>
+     <table border="1">
+        <thead> 
+            <tr>
+                <th>Day</th>
+                <th>Opening time</th>
+                <th>Closing time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>9:00 AM</td>
+                <td>7:00 PM</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>9:00 AM</td>
+                <td>7:00 PM</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>9:00 AM</td>
+                <td>7:00 PM</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>9:00 AM</td>
+                <td>7:00 PM</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>9:00 AM</td>
+                <td>7:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>9:00 AM</td>
+                <td>5:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>Emergency services</td>
+                <td>Emergency services</td>
+            </tr>
+        </tbody>
+        
+     </table>
+     <hr>
+     <br>
+     &copy;2026 CityCare Multispecialty Clinic-Patient Appointment Portal</footer>
+
+
+
+
+
+
+
+
+    
+
+
+    
+</body>
+</html>
